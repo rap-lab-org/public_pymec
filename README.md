@@ -1,5 +1,8 @@
 # A Probabilistic Measure of Multi-Robot Connectivity and Ergodic Optimal Control
 
+## Overview
+![](./imgs/IMEC_drones.gif)
+
 ## 📦 Installation  
 
 ### Conda Environment Setup  
