@@ -13,7 +13,7 @@ cd public_pymec
 
 # Create and activate conda environment (Python 3.12 recommended)  
 # Note that the results may vary slightly due to the version of JAX
-conda create -n imec -f imec.yml 
+conda env create -f imec.yml -n imec
 conda activate imec  
 ```
 ---
