@@ -1,9 +1,13 @@
 # A Probabilistic Measure of Multi-Robot Connectivity and Ergodic Optimal Control
 
 ## Overview
-![](./imgs/IMEC_drones.gif)
+<!-- ![](./imgs/IMEC_drones.gif) -->
+By optimizing the proposed probabilistic connectivity measure, robots maintain intermittent connectivity during ergodic search.
+<div align="center">
+<img src="./imgs/IMEC_drones.gif" style="zoom:200%" alt=""/>
+</div>
 
-## 📦 Installation  
+## Installation  
 
 ### Conda Environment Setup  
 ```bash
@@ -18,13 +22,13 @@ conda activate imec
 ```
 ---
 
-## 🧪 Toy Example  
+## Example  
 
-▶️ Refer to **[imec.ipynb](./imec.ipynb)** and **[baseline.ipynb](./baseline.ipynb)** for tutorial.  
+Refer to **[imec.ipynb](./imec.ipynb)** and **[baseline.ipynb](./baseline.ipynb)** for tutorial.  
 
 ---
 
-## ✨ Citation  
+## Citation  
 
 ```bibtex
 @article{liu2025probabilistic,
@@ -37,34 +41,21 @@ conda activate imec
 
 ---
 
-## 📚 Acknowledgement  
+## Acknowledgement  
 
 This project builds upon the following works:  
 
 ### iLQR Implementation  
-```bibtex
-@article{sun2025fast,
-  title={Fast Ergodic Search With Kernel Functions},
-  author={Sun, Max Muchen and Gaggar, Ayush and Traumore},
-  journal={IEEE Transactions on Robotics},
-  year={2025}
-}
-```  
-[ergodic-control-sandbox: https://github.com/MurpheyLab/ergodic-control-sandbox](https://github.com/MurpheyLab/ergodic-control-sandbox)  
 
-### Modification
+- Paper: [Fast Ergodic Search With Kernel Functions](https://ieeexplore.ieee.org/document/10891753)
+- GitHub Repository:
+[ergodic-control-sandbox: https://github.com/MurpheyLab/ergodic-control-sandbox](https://github.com/MurpheyLab/ergodic-control-sandbox)  
 - The codebase was optimized with JAX's computational primitives for improved performance and simplicity.
 
 ### Time-Optimal Ergodic Search  
-```bibtex
-@article{dong2023TimeOptErg,
-    title={Time-Optimal Ergodic Search}, 
-    author={Dong, Dayi and Berger, Henry and Abraham, Ian},
-    journal={RSS},
-    year={2023}
-}
-```  
-[time_optimal_ergodic_search: https://github.com/ialab-yale/time_optimal_ergodic_search](https://github.com/ialab-yale/time_optimal_ergodic_search)  
+
+- Paper: [Time-optimal ergodic search: Multiscale coverage in minimum time](https://journals.sagepub.com/doi/abs/10.1177/02783649241273597) 
+- GitHub Repository: [time_optimal_ergodic_search](https://github.com/ialab-yale/time_optimal_ergodic_search)  
 
 <!-- ## Note
 jax[cpu] and jax[gpu], results may be different. -->
