@@ -45,6 +45,10 @@ Refer to **[imec.ipynb](./imec.ipynb)** and **[baseline.ipynb](./baseline.ipynb)
 
 This project builds upon the following works:  
 
+### Crazyswarm2
+
+- GitHub Repository: [Crazyswarm2: A ROS 2 testbed for Aerial Robot Teams](https://imrclab.github.io/crazyswarm2/)
+
 ### iLQR Implementation  
 
 - Paper: [Fast Ergodic Search With Kernel Functions](https://ieeexplore.ieee.org/document/10891753)
